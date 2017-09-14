@@ -1,3 +1,9 @@
+//*
+*  copied from  https://github.com/hyperledger/fabric-samples/tree/master/chaincode/sacc 
+*  and modified to performing logging .
+*
+*/
+
 package main
 
 import (
