@@ -1,0 +1,17 @@
+{
+	"channelName": "channel1",
+	"channelConfigPath": "",
+	"orgName": "org1",
+	"peers": [
+		"peer1org1"
+	],
+	"deploy": [
+		{
+			"chaincodeName": "logging_sample",
+			"chaincodePath": "github.ibm.com/debrajo/logging_sample",
+			"chaincodeVersion": "v0.3.8",
+			"init": "init1",
+			"args": ["test2"],
+		}		
+	]
+}
