@@ -96,7 +96,6 @@ func main() {
     // LogDebug, LogInfo, LogNotice, LogWarning, LogError, LogCritical
 	logger.SetLevel(shim.LogDebug)
 	logLevel, _ := shim.LogLevel("DEBUG")
-	logger.Info(logLevel)
 	shim.SetLoggingLevel(logLevel)
 	logger.Info(logger.IsEnabledFor(logLevel))
     
